@@ -15,10 +15,15 @@ $(document).ready(function () {
 
         if (scrolling > 50) {
             $("nav").addClass("active-nav");
-
+            
             $(".back-to-top").fadeIn();
-        } else {
+
+        } 
+
+        
+        else {
             $("nav").removeClass("active-nav");
+            $(".navlist ul li.home").addClass("active").siblings().removeClass("active");
             $(".back-to-top").fadeOut();
         }
     });
