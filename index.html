@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css" />
     <title>Bussiness Psd to html</title>
@@ -133,7 +134,7 @@
                 <p>Vestibulum elementum ex ullamcorper ligula vulputate</p>
             </div>
             <div class="service-item">
-                <div class="item">
+                <div class="item"  data-aos="fade-right">
                     <img src="images/icon1.png" alt="icon1" />
                     <h2>Vivamus tincidunt</h2>
                     <p>
@@ -143,7 +144,7 @@
                         lectus vitae
                     </p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-left" >
                     <img src="images/icon2.png" alt="icon2" />
                     <h2>Etiam porttitor sagittis ipsum</h2>
                     <p>
@@ -153,7 +154,7 @@
                         lectus vitae
                     </p>
                 </div>
-                <div class="item">
+                <div class="item"  data-aos="fade-right">
                     <img src="images/icon3.png" alt="icon3" />
                     <h2>Vivamus tincidunt diam a iaculis</h2>
                     <p>
@@ -163,7 +164,7 @@
                         lectus vitae
                     </p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-left">
                     <img src="images/icon4.png" alt="icon4" />
                     <h2>Donec metus augue</h2>
                     <p>
@@ -173,7 +174,7 @@
                         lectus vitae
                     </p>
                 </div>
-                <div class="item">
+                <div class="item"  data-aos="fade-right" data-aos-offset="180" >
                     <img src="images/icon5.png" alt="icon5" />
                     <h2>Aliquam sed mollis</h2>
                     <p>
@@ -183,7 +184,7 @@
                         lectus vitae
                     </p>
                 </div>
-                <div class="item">
+                <div class="item" data-aos="fade-left" data-aos-offset="180" >
                     <img src="images/icon6.png" alt="icon6" />
                     <h2>Vestibulum placerat nisl quis</h2>
                     <p>
@@ -200,9 +201,9 @@
     <!-- service section ends -->
 
     <!-- about section starts -->
-    <section id="about">
-        <div class="container about-content">
-            <div class="about-txt">
+    <section id="about" data-aos="zoom-in">
+        <div class="container about-content" >
+            <div class="about-txt" data-aos="fade-up" data-aos-duration="3000">
                 <h3>Who we are</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
@@ -232,8 +233,8 @@
     <!-- about section ends -->
 
     <!-- portfolio section starts -->
-    <section id="portfolio">
-        <div class="container portfolio-content">
+    <section id="portfolio" >
+        <div class="container portfolio-content" data-aos="fade-right" >
             <div class="port-heading">
                 <h1 class="heading-txt">see our work</h1>
                 <span class="u-line1"></span><i class="fa fa-cog u-icon" aria-hidden="true"></i><span
@@ -255,7 +256,7 @@
             </div>
         </div>
 
-        <div class="portfolio-img">
+        <div class="portfolio-img" data-aos="fade-up">
             <div class="img-item mix web">
                 <img src="images/port1.png" alt="port1" />
                 <div class="overlay">
@@ -343,7 +344,7 @@
 
     <!-- testimonials section starts -->
     <section id="testimonial">
-        <div class="container test-content">
+        <div class="container test-content" data-aos="fade-right">
             <div class="test-heading">
                 <h1 class="heading-txt">testimonials</h1>
                 <span class="u-line1"></span>
@@ -499,9 +500,9 @@
     <!-- testimonials section ends -->
 
     <!-- contact section starts -->
-    <section id="contact">
+    <section id="contact" >
         <div class="container con-content">
-            <div class="con-item con-item1">
+            <div class="con-item con-item1"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="50%">
                 <img src="images/bottom-logo.png" alt="logo" />
                 <p>
                     Donec vitae cursus quam. Etiam dignissim, nulla a congue auctor,
@@ -511,7 +512,7 @@
                     faucibus massa. Mauris justo arcu, faucibus at nunc quis
                 </p>
             </div>
-            <div class="con-item con-item2">
+            <div class="con-item con-item2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="50%">
                 <h1>contact</h1>
                 <p>
                     There are many variations of passages of Lorem Ipsum available, but
@@ -530,7 +531,7 @@
                     </div>
                 </div>
             </div>
-            <div class="con-item con-item3">
+            <div class="con-item con-item3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="50%">
                 <h1>latest tweets</h1>
                 <div class="tweets">
                     <div>
@@ -553,7 +554,7 @@
                     <span>6 Hours Ago</span>
                 </div>
             </div>
-            <div class="con-item con-item4">
+            <div class="con-item con-item4"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-offset="50%">
                 <h1>news later</h1>
                 <p>
                     Type your email address below and recive our daily news letter for
@@ -578,6 +579,14 @@
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/mixitup.min.js"></script>
+    <!-- aos library file -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
 
     <script src="js/custom.js"></script>
 </body>
